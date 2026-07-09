@@ -1,6 +1,6 @@
 ---
-version: 1.8.1
-last_updated: 2026-07-03
+version: 1.8.2
+last_updated: 2026-07-08
 status: active
 audience: internal
 name: ama-research-engine
@@ -125,7 +125,7 @@ This mirrors what the design skill (premium-ux) locked in its v1.29.0: the writi
 
 1. **A brief that carries the voice rules is NOT the gate.** Handing a subagent (or yourself, from memory) a list of the rules above and having copy written "to spec" produces compliance, not voice. The gate is only satisfied when `ama-research-engine` is actually invoked and its Human-Reading QC is run against the drafted words. (Lesson, 2026-07-02: 4 your brand video-to-article drafts were written by cold subagents from a brief carrying the AMA rules; the gate had not really run. When it was invoked for real it immediately caught 3 em dashes hiding as `&mdash;` entities and a live `[FILL IN]` in an FAQ, both of which a plain-text scan and the design pass had missed. Applying the rules loosely from memory or a brief IS the failure mode this gate names.)
 2. **Never delegate the write/voice pass to a cold subagent.** Subagents are for research and mechanical steps only (pulling transcripts, gathering reviews, first-pass structure). The actual voice pass, and this QC, stay with the top model in the main session, the same boundary premium-ux draws for composition. Cold agents executing a spec cannot hold Dee's / the brand's voice.
-3. **Run it as a LOOP, not a one-shot checklist:** write → reread as the buyer on a phone → fix the stiff/long/AI-sounding lines → reread → only then ship. One pass is not the gate. Grep for em dashes **entity-aware** (`—`, `&mdash;`, `&#8212;`) and for `[FILL IN]`, not just the literal character, before calling it clean.
+3. **Run it as a LOOP, not a one-shot checklist:** write → reread as the buyer on a phone → fix the stiff/long/AI-sounding lines → reread → only then ship. One pass is not the gate. Grep for em dashes **entity-aware** (`—`, `&mdash;`, `&#8212;`) and for `[FILL IN]`, not just the literal character, before calling it clean. **The grep runs over the WHOLE artifact, including its own scaffolding — title, headers, meta/frontmatter lines — not just the body you were mentally treating as "the copy," and "passed" is not sayable until that grep has actually run and returned clean.** (Lesson 2026-07-08: a WYR grading kit's 20 body prompts were clean, but the file TITLE carried an em dash straight through the voice pass; "voice QC passed, no em dashes" was said before the grep ran. Measure-first caught it. The scaffolding is where the miss hides precisely because you're not thinking of it as copy.)
 4. **Floor, not ceiling (Dee, standing rule).** These rules are the minimum, written for lower models. Apply better judgment on top (does this actually sound like this person, would the buyer keep reading), and fold real improvements back here via skill-trainer.
 
 ## Voice of Creator (Dee's own words)
