@@ -1,0 +1,26 @@
+{
+  "skill_name": "ama-research-engine",
+  "evals": [
+    {
+      "id": 0,
+      "name": "run-ama4-voc",
+      "prompt": "Run AMA4 for a magnesium glycinate sleep supplement aimed at women in perimenopause who wake up at 3am. Pull voice-of-customer language I can use in copy.",
+      "expected_output": "Acts as AMA4: VOC findings grouped into pain points / desired outcomes / trigger moments, real quotes with cited sources, plain 6th-grade benefits-first style, no emojis, no em dashes. Should not invent fake reviews.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "pitch-requires-research-first",
+      "prompt": "Write me a Six Second Pitch for Brand A seasoned salt. Make it punchy.",
+      "expected_output": "Enforces the hard rule: does NOT invent buyer language. Explains AMA4 (VOC) + AMA5 (keyword) must run first, and that this is the paid layer, then offers to run them. Does not hand over a fully-researched pitch for free.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "ama13-confirms-mode",
+      "prompt": "Run AMA13 on this voice note: 'Okay so for the client, I think we drop the garlic SKU, keep the original, and a well-known celebrity testimonial goes on the homepage. Shane disagrees on the garlic call.'",
+      "expected_output": "Acts as AMA13 Transcript Intelligence & Continuity Auditor: confirms which mode (Summary/Continuity/Decision Trace) before scanning anything, defaults to Summary, captures exact decisions + the disagreement, cites the transcript.",
+      "files": []
+    }
+  ]
+}
