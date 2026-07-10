@@ -6,6 +6,12 @@
 
 ---
 
+## 0.1.1
+- Tidied the bundled research prompt library: swapped internal examples for generic placeholders so every prompt reads cleanly for any brand.
+
+---
+
+
 ## 0.1.0 — 2026-07 (first release)
 
 The toolkit is live. 5 skills that work as a team:

@@ -7,14 +7,14 @@
   },
   "metadata": {
     "description": "The Six Second Pitch Toolkit: free Claude skills that help you find your person, clarify your message, research like a pro, and ship pages that convert.",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "plugins": [
     {
       "name": "six-second-pitch-toolkit",
       "source": "./plugins/six-second-pitch-toolkit",
       "description": "Five free skills that work as a team: The Kickoff (one-time setup interview), The Navigator (routes your work), the Six Second Pitch analyzer (scores your message), Audience Recon (your buyer's real words before any copy), and Route Review (turns lessons into fixes).",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Dee Patience",
         "url": "https://sixsecondpitch.com"

@@ -65,7 +65,7 @@ The AMA / SSP / KDP prompts are **templates** — the reusable "how." Each **bra
 4. **Run the template** with the brand's data.
 5. **Save the output back to the brand's workspace** so it becomes part of that brand's instance for next time.
 
-**Brand workspace = where a brand's instance lives:** e.g. `Projects/Six Second Pitch/clients/[brand]/` (registry + `00-master.md` + saved AMA/SSP outputs). If a brand has no workspace yet, create one and start its `NAME-REGISTRY.md` from the root template.
+**Brand workspace = where a brand's instance lives:** e.g. a `clients/[brand]/` folder in your own workspace (registry + `00-master.md` + saved AMA/SSP outputs). If a brand has no workspace yet, create one and start its `NAME-REGISTRY.md` from the root template.
 
 ### AMA9 = the Name Registry layer (not "business copy")
 AMA9's real job is the **glossary**: hold the proper names — services, frameworks, acronyms (your brand, RAMP, LOCK, the 6Ps), titles, domains — so every other thread uses them right and Dee never re-explains. It runs in two modes against `NAME-REGISTRY.md`:
