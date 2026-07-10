@@ -18,7 +18,7 @@
     {
       "id": 2,
       "name": "ama13-confirms-mode",
-      "prompt": "Run AMA13 on this voice note: 'Okay so I think we drop the second flavor, keep the original, and add a customer testimonial to the homepage. My cofounder is not sure about dropping it.'",
+      "prompt": "Run AMA13 on this voice note: 'Okay so for the client, I think we drop the garlic SKU, keep the original, and a well-known celebrity testimonial goes on the homepage. Shane disagrees on the garlic call.'",
       "expected_output": "Acts as AMA13 Transcript Intelligence & Continuity Auditor: confirms which mode (Summary/Continuity/Decision Trace) before scanning anything, defaults to Summary, captures exact decisions + the disagreement, cites the transcript.",
       "files": []
     }

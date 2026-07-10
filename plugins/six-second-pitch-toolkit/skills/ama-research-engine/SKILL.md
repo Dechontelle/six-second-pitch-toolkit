@@ -1,5 +1,5 @@
 ---
-version: 1.8.2
+version: 1.8.3
 last_updated: 2026-07-08
 status: active
 audience: internal
@@ -65,7 +65,7 @@ The AMA / SSP / KDP prompts are **templates** — the reusable "how." Each **bra
 4. **Run the template** with the brand's data.
 5. **Save the output back to the brand's workspace** so it becomes part of that brand's instance for next time.
 
-**Brand workspace = where a brand's instance lives:** e.g. a `clients/[brand]/` folder in your own workspace (registry + `00-master.md` + saved AMA/SSP outputs). If a brand has no workspace yet, create one and start its `NAME-REGISTRY.md` from the root template.
+**Brand workspace = where a brand's instance lives:** e.g. `Projects/Six Second Pitch/clients/[brand]/` (registry + `00-master.md` + saved AMA/SSP outputs). If a brand has no workspace yet, create one and start its `NAME-REGISTRY.md` from the root template.
 
 ### AMA9 = the Name Registry layer (not "business copy")
 AMA9's real job is the **glossary**: hold the proper names — services, frameworks, acronyms (your brand, RAMP, LOCK, the 6Ps), titles, domains — so every other thread uses them right and Dee never re-explains. It runs in two modes against `NAME-REGISTRY.md`:
@@ -109,7 +109,7 @@ AMA is the **COPY gate**, the way premium-ux is the **VISUAL gate**. Any copy �
 
 - [ ] **Numerals + symbols** — money `$`, percentages `%`, stats as numerals (never spelled out).
 - [ ] **Reading level 3rd–5th grade** — short words, short sentences (check it, don't assume).
-- [ ] **Scannable** — front-loaded answer, question-style H2s, one bold key phrase per section, short paragraphs, lists where they help.
+- [ ] **Scannable (MEASURED, not eyeballed)** — front-loaded answer, question-style H2s, one bold key phrase per section, lists where 3+ parallel items appear. **Paragraphs: 2–3 sentences max (~50 words), one idea each — COUNT the sentences; any 4+ sentence block gets split or turned into a list.** "Short paragraphs" as a vibe is NOT the gate; the sentence count is. Copy that was hand-edited AFTER a cold-read or Council pass must RE-PASS this count before it ships. (Added 2026-07-10: a testimony article passed with 5–7 sentence walls because "scannable" had no number — the same gap the visual gate had before px/contrast made it enforceable; the walls were in hand-applied revisions that never went back through this gate. Dee: "seems like this isn't that scannable.")
 - [ ] **WIIFM + curiosity loops** (non-negotiable) — EVERY line passes the "so what?" test. If the reader could say "so what," cut it or make it pay off. EVERY headline and subhead opens a curiosity loop that teases the payoff the reader wants, never scene-only or topic-only ("What God showed me when I prayed about AI," NOT "The night a machine broke apart in my dream"). They have to want to keep reading.
 - [ ] **Per-H2 curiosity-loop audit (added 2026-07-03)** — go H2 by H2 and judge each ONE like a YouTube title/thumbnail: would a stranger who only read this heading want to know the answer? A topic-label H2 is weaker than a question/tension H2. Rewrite any H2 that reads as a label instead of an open question or a tease. (Lesson: an article had 2 flat H2s that weren't caught until Dee's own read, despite passing every measured QA number. Dee's actual bar: "does it have curiosity loops and would it make a good YouTube video.")
 - [ ] **No em dashes. No AI filler** ("honestly," "delve," "in conclusion," "it's worth noting," "tapestry").
