@@ -50,7 +50,7 @@ Prior: v10.1 | Added AMA3.2 Mini-RAMP Proposal Generator SOP | 2025-10-31
 AMA Prompt System — Full Verbatim SOP v010
 © 2025 Dee Patience LLC | Compiled October 31, 2025
 Executive Summary
-The AMA Prompt System is a unified library of ready-to-run prompts designed for your brand and your author imprint. Each AMA (Ask-Me-Anything) prompt acts as a specialized assistant for writing, research, automation, or system building. The goal is clarity, speed, and consistency in every deliverable—without re-explaining context. This document compiles all 15 AMA prompts (AMA1–AMA15) with their full instructions and examples, providing a single reference for you or any team member.
+The AMA Prompt System is a unified library of ready-to-run prompts designed for a services business and a publishing/content brand. Each AMA (Ask-Me-Anything) prompt acts as a specialized assistant for writing, research, automation, or system building. The goal is clarity, speed, and consistency in every deliverable—without re-explaining context. This document compiles all 15 AMA prompts (AMA1–AMA15) with their full instructions and examples, providing a single reference for you or any team member.
 How to Use This SOP
 1. Choose the right AMA – Use the Quick Index to match the prompt to your task.
 2. Run the command – In ChatGPT or your automation tool, type 'Run AMA#' (e.g., Run AMA4).
@@ -107,7 +107,7 @@ Do not hallucinate or guess. Say “I don’t know” if needed. Use current inf
 —
 AMA7 – Tool Setup and Troubleshooting In every conversation, assign yourself the most relevant expert role for helping with tool setup, usage, or troubleshooting.
 Before responding, search the current thread, all other threads in this project folder, any referenced folders, uploaded files, and saved memory. Always use the most complete and current context available. Do not flag missing information before responding unless the prompt explicitly asks for validation first. Instead, note missing info or suggested documents inside the response itself.
-Check the latest UI, help docs, changelogs, and documentation before answering. Use real menu names and fields exactly as they appear. Flag anything moved, renamed, removed, or newly added. Only include steps available in the current plan. Explain any differences between free and paid versions. Highlight new features or settings that could save time or improve results. Use clear, numbered steps. Always explain what could go wrong, what went wrong, and how to fix it. Keep it simple and specific enough for Shane and Dee to follow without coding or guessing.
+Check the latest UI, help docs, changelogs, and documentation before answering. Use real menu names and fields exactly as they appear. Flag anything moved, renamed, removed, or newly added. Only include steps available in the current plan. Explain any differences between free and paid versions. Highlight new features or settings that could save time or improve results. Use clear, numbered steps. Always explain what could go wrong, what went wrong, and how to fix it. Keep it simple and specific enough for a non-technical team to follow without coding or guessing.
 —
 AMA8 – Journey Builder and Marketing Copy Generator In every conversation, assign yourself the most relevant expert role for writing marketing copy for our services, offers, or program launches.
 Before responding, search the current thread, all other threads in this project folder, any referenced folders, uploaded files, and saved memory. Always use the most complete and current context available. Do not flag missing information before responding unless the prompt explicitly asks for validation first. Instead, note missing info or suggested documents inside the response itself.
@@ -155,18 +155,11 @@ B. Outreach Templates – email, DM, LinkedIn message, press pitch.
 C. Creative Collaboration Ideas – 2–3 per Tier 1 partner.
 D. Summary Report – Top 10 opportunities, outreach overview, and next steps.
 5. Default Contact Info
-Dee Patience
-your brand
-you@yourbrand.com | [your phone]
+[Your Name]
+[Your Business]
+[your email] | [your phone]
 Strategy Call: [your booking link]
-Direct: [your booking link]
-MeetN: https://meetn.com/deepatience
-Shane Patience
-your brand
-you@yourbrand.com | [your phone]
-Strategy Call: [your booking link]
-Direct: [your booking link]
-MeetN: https://meetn.com/shanepatience
+Direct: [your direct booking link]
 6. Fast Run Checklist
 ✅ Upload or paste CSV or LinkedIn export
 ✅ Confirm campaign or client project name
@@ -233,7 +226,7 @@ Processing Sequence
 Formatting Rules
 Follow AMA1 formatting: 6th-grade clarity, active voice, and 1.5 line spacing. Use headers and tables for structure. Preserve exact phrasing of Dee’s language, especially coined terms or faith-based content.
 Example Use
-Command: Run AMA13 on transcript from Dee’s Apple Voice Note (Faith Focus Haven – Story Compass thread). Summarize all ideas and action items, keep exact quotes for tone, and identify next prompts.
+Command: Run AMA13 on transcript from a voice-note recording (project thread). Summarize all ideas and action items, keep exact quotes for tone, and identify next prompts.
 Error Prevention
 - Never condense or neutralize emotional/theological language — tag it as 'Faith Context'.
 - Flag missing or unclear audio.
@@ -272,16 +265,16 @@ Wins Since Last Check-In: 2–3 bullets
 KPI Snapshot: short table for Amazon + TikTok
 Discussion Points: 2–3 focus items
 Next Steps: short list of deliverables
-Prepared by: Dee Patience | your brand | you@yourbrand.com
+Prepared by: [Your Name] | [Your Business] | [your email]
 Pre-Meeting Email Template
 Subject: Tomorrow’s [Client Name] Check-In – Agenda Attached
 Hi [Client Name],
 Looking forward to our meeting tomorrow. I’ve attached a short agenda covering recent wins, KPIs, and discussion points.
 Please review and note any updates or priorities you’d like to discuss.
 Talk soon,
-Dee Patience
-Amazon Growth Strategist | your brand
-📞 [your phone] | [Book a 20-min call]([your booking link]
+[Your Name]
+[Your Title] | [Your Business]
+📞 [your phone] | [Book a call]([your booking link])
 Automation Rules
 • Run every Friday (weekly) or 1st of each month (monthly)
 • File naming format:
@@ -293,21 +286,21 @@ Versioning & Branding
 File version: v1.4 or higher
 Brand colors: Teal #008080 | Light Teal #D1EEEE | Gray #F5F5F5 | Text #222222
 Footer: Prepared automatically via Focus Finder System (AMA3.1 v1.4)
-© 2025 Dee Patience LLC / Faith Focus Haven™ – All Rights Reserved
+© 2025 [Your Business] – All Rights Reserved
 Example Output Flow
-1. Run AMA3.1 for client (e.g., Brand A)
-2. Files saved to /Clients/the client/Meetings/2025-10-25/
+1. Run AMA3.1 for client (e.g., [Client Name])
+2. Files saved to /Clients/[client]/Meetings/[date]/
 3. Gmail draft opens with pre-filled subject/body
-4. Agenda attached and sent to client@example.com
+4. Agenda attached and sent to [client email]
 5. Slack message confirms delivery.
-AMA3.2 – Mini-RAMP Proposal Generator SOP (v001)Purpose:Transform a completed Mini-RAMP Report into a client-ready proposal and deliverable. This bridges the RAMP diagnostic system (AMA3 / AMA3.3) with your client communication workflow, turning internal metrics into professional summaries, PDFs, and upgrade offers.Scope:Applies to both Amazon and TikTok Shop RAMP reports. Takes structured data from the Mini-RAMP (Reach, Attention, Momentum, Profit) and outputs:- A one-page proposal or PDF- An internal brief- A pre-filled client email draftProcess Flow:Phase | Action | Output-------|--------|---------1. Intake | Gather client data (name, brand, niche, goals, pain points, RAMP scores). | client_data.json or inline prompt variables2. Summary Synthesis | Generate a short summary (top 3 findings + top 3 action steps). | 1-paragraph summary3. Proposal Assembly | Merge client info, findings, and pricing tiers into branded layout. | proposal_[client]_MiniRAMP.docx4. CTA & Upsell Logic | Insert upgrade offer (Lite → Full RAMP, $250 credit toward $995). | CTA block5. Output Variants | Produce 3 assets: client PDF, internal docx brief, and pre-filled Gmail link. | DeliverablesPrompt Example:Run AMA3.2 Proposal Generator for [ClientName].Input: RAMP scores, findings, and pain points.Output: Client PDF + Email draft + Internal brief.Sample Variables:ClientName: a clientBrand: Brand BPlatform: TikTok ShopPainPoints: packaging confusion, underperforming live content, creator activation gapRAMP Scores: R=4, A=3, M=2, P=3Proposal Layout:Section | Description---------|-------------Header | Brand logo + client name + proposal title (“Mini-RAMP Summary & Next Steps”).Overview | 2–3 lines introducing the Mini-RAMP purpose.Summary of Findings | 3–5 concise bullets tied to R, A, M, and P metrics.Next Steps | Action list tied to report insights.Pricing & Options | Table showing Lite RAMP (complete) and Full RAMP ($995, minus $250 credit).CTA | Clear “Book a Strategy Call” or “Approve Upgrade” link.Footer | Copyright © 2025 Dee Patience / Dee Patience LLC.Email Output Template:Subject: Your Mini-RAMP Insights & Next StepsHi [ClientFirstName],Attached is your Mini-RAMP summary—an overview of how your brand performs across Reach, Attention, Momentum, and Profit. You’ll see next steps and an optional upgrade path to the full RAMP Report.Let’s set up a quick call to walk through your opportunities:[Schedule Link]Warmly,  DeeIntegration:- Pulls RAMP scores and notes from ramp_mini_[client].csv.- Uses standard your brand / Faith Focus Haven proposal styling.- Compatible with AMA3.3 (Full RAMP Report) and AMA3.1 (Client Dashboards).Metadata:File name: AMA3.2_MiniRAMP_Proposal_Generator_v001Author: Dee Patience © 2025. Licensed for commercial use by Dee Patience LLC.Dependencies: AMA3_TTS_RAMP_Research_to_System_v001 + AMA3.3 RAMP Report SOP.
+AMA3.2 – Mini-RAMP Proposal Generator SOP (v001)Purpose:Transform a completed Mini-RAMP Report into a client-ready proposal and deliverable. This bridges the RAMP diagnostic system (AMA3 / AMA3.3) with your client communication workflow, turning internal metrics into professional summaries, PDFs, and upgrade offers.Scope:Applies to both Amazon and TikTok Shop RAMP reports. Takes structured data from the Mini-RAMP (Reach, Attention, Momentum, Profit) and outputs:- A one-page proposal or PDF- An internal brief- A pre-filled client email draftProcess Flow:Phase | Action | Output-------|--------|---------1. Intake | Gather client data (name, brand, niche, goals, pain points, RAMP scores). | client_data.json or inline prompt variables2. Summary Synthesis | Generate a short summary (top 3 findings + top 3 action steps). | 1-paragraph summary3. Proposal Assembly | Merge client info, findings, and pricing tiers into branded layout. | proposal_[client]_MiniRAMP.docx4. CTA & Upsell Logic | Insert upgrade offer (Lite → Full RAMP, [price] credit toward [price]). | CTA block5. Output Variants | Produce 3 assets: client PDF, internal docx brief, and pre-filled Gmail link. | DeliverablesPrompt Example:Run AMA3.2 Proposal Generator for [ClientName].Input: RAMP scores, findings, and pain points.Output: Client PDF + Email draft + Internal brief.Sample Variables:ClientName: [Client Name]Brand: [Client Brand]Platform: TikTok ShopPainPoints: packaging confusion, underperforming live content, creator activation gapRAMP Scores: R=4, A=3, M=2, P=3Proposal Layout:Section | Description---------|-------------Header | Brand logo + client name + proposal title (“Mini-RAMP Summary & Next Steps”).Overview | 2–3 lines introducing the Mini-RAMP purpose.Summary of Findings | 3–5 concise bullets tied to R, A, M, and P metrics.Next Steps | Action list tied to report insights.Pricing & Options | Table showing Lite RAMP (complete) and Full RAMP ([price], minus [price] credit).CTA | Clear “Book a Strategy Call” or “Approve Upgrade” link.Footer | Copyright © 2025 [Your Business].Email Output Template:Subject: Your Mini-RAMP Insights & Next StepsHi [ClientFirstName],Attached is your Mini-RAMP summary—an overview of how your brand performs across Reach, Attention, Momentum, and Profit. You’ll see next steps and an optional upgrade path to the full RAMP Report.Let’s set up a quick call to walk through your opportunities:[Schedule Link]Warmly,  [Your Name]Integration:- Pulls RAMP scores and notes from ramp_mini_[client].csv.- Uses your standard proposal styling.- Compatible with AMA3.3 (Full RAMP Report) and AMA3.1 (Client Dashboards).Metadata:File name: AMA3.2_MiniRAMP_Proposal_Generator_v001Author: [Your Name] © 2025. Licensed for commercial use.Dependencies: AMA3_TTS_RAMP_Research_to_System_v001 + AMA3.3 RAMP Report SOP.
 AMA3.3 – RAMP Report Builder SOP (Verbatim)
 AMA3 – TTS RAMP Research-to-System SOP (v001)
-Brand: your brand / your author imprint
-Owner: Dee Patience | Date: 2025-10-28 | Status: Draft for Execution
+Brand: [Your Business]
+Owner: [Your Name] | Date: 2025-10-28 | Status: Draft for Execution
 This SOP lets you upload one file to a new ChatGPT thread and run the full TikTok Shop research → naming → mini-report chain without copy/paste. It asks only the necessary clarifying questions, pauses at approval gates, and then continues automatically.
 How to Use (One-File Workflow)
-1) Upload this .docx into a new ChatGPT thread for the project (the client, the client, or General Research).
+1) Upload this .docx into a new ChatGPT thread for the project ([client name] or General Research).
 2) Say “Run the chain” and choose: (a) auto-run all phases, or (b) pause for approval after each phase.
 3) When ChatGPT asks brief clarifying questions, answer; it continues automatically.
 4) Deliverables: VOC quote bank, Trend board, Creator & Seller maps (CSV), Naming shortlist (R‑A‑M‑P), and a Mini RAMP draft report with action items.
@@ -319,7 +312,7 @@ Execution Rules (Important)
 • Do not finalize metric NAMES until the naming phase completes (AMA9). RAMP letters are placeholders.
 • Exports: provide CSV + DOCX summaries.
 Inputs & Placeholders
-[CLIENT_OR_PROJECT]: the client | the client | General Research
+[CLIENT_OR_PROJECT]: [Client Name] | General Research
 [TIME_WINDOW]: e.g., Last 30–60 days (adjust per category seasonality)
 [CATEGORY_KEYWORDS]: core product/keyword set used to find creators/sellers
 [DATA_TO_UPLOAD_OPTIONAL]: Rankster/ShopSpy exports, transcripts, LinkedIn CSV, etc.
@@ -406,7 +399,7 @@ Appendix D – Style & Naming Rules
 Appendix E – Integration (Optional Phase 6)
 • If approved, auto-run SSP‑01 to create outreach hooks, then TTS‑8/TTS‑11 for affiliate setup & briefs, and TTS‑3 for a 7‑day content plan aligned to the Mini RAMP.
 AMA3.4 – Unified SOP Compiler (Full Verbatim) [NEW in v10.2+]
-Purpose: To compile multiple AMA, KDP, or TTS documents into one unified, full-verbatim SOP for archival, publication, or version release (e.g., v010+, v011). Used when finalizing complete systems such as AMA Prompt Library, TikTok Shop SOP, KDP Publishing SOP, or Faith Focus Haven™ frameworks.
+Purpose: To compile multiple AMA, KDP, or TTS documents into one unified, full-verbatim SOP for archival, publication, or version release (e.g., v010+, v011). Used when finalizing complete systems such as AMA Prompt Library, TikTok Shop SOP, KDP Publishing SOP, or your own publishing-brand frameworks.
 When to Use: Use AMA3.4 after all individual SOPs or prompt files are complete and approved. It merges content from multiple uploaded .docx, .pdf, or .txt files into one continuous, readable document that preserves original formatting, spacing, and structure.
 Role and Context: Assign yourself the Document Compiler & SOP Integrator role. Do not summarize, compress, or omit any section unless explicitly instructed.
 Input Rules:
