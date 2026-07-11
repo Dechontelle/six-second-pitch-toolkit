@@ -78,7 +78,7 @@ auto-update) picks it up. The version number in `plugin.json` tells you what you
 
 ## Questions, wins, or stuck?
 
-Visit [sixsecondpitch.com](https://sixsecondpitch.com). Dee reads everything.
+Email [hello@deepatience.com](mailto:hello@deepatience.com) or visit [sixsecondpitch.com](https://sixsecondpitch.com). Dee reads everything.
 
 *License: free to install and use for your own brand or your clients. Please do not resell
 or republish the skills themselves. Full terms in LICENSE.md.*
