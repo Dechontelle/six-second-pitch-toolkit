@@ -1,10 +1,10 @@
 ---
-version: 1.8.0
-last_updated: 2026-07-01
+version: 1.8.1
+last_updated: 2026-07-27
 status: active
 audience: internal
 name: skill-trainer
-description: Dee's review + lessons-into-skills loop (renamed from "process-review"). After any work it runs an objective EVALUATE -> GAPS -> CLARIFY -> IMPROVE review of what was just done, through an ISO 9001 / Six Sigma lens (version control, saving, single source of truth, doc sprawl, dates, secrets-in-chat, repeated mistakes, false assumptions, which skills should have fired) AND folds the approved lessons back into the relevant skills so the team gets better over time. That fold-back is the "trainer" part. Fire it WITHOUT waiting to be asked whenever the user reflects on how work went or how to improve, OR says any of: "lessons learned", "lessons", "what did we learn", "review", "review mode", "retro", "retrospective", "process review", "what worked", "what didn't", "evaluate what we did", "train the skill", "train the skills", "training skill", or at the end of a major deliverable or session. Be pushy about triggering. Do NOT use it for code correctness (use code-review) or a pull request (use review); and it does not BUILD new skills (that is skill-creator) - it TRAINS the existing skills and the way of working.
+description: Dee's review + lessons-into-skills loop. After any work it runs an objective EVALUATE -> GAPS -> CLARIFY -> IMPROVE review of what was just done, through an ISO 9001 / Six Sigma lens (version control, single source of truth, doc sprawl, dates, repeated mistakes, false assumptions, which skills should have fired) AND folds the approved lessons back into the relevant skills so the team gets better over time. Fire it without waiting to be asked whenever the user reflects on how work went or how to improve, or says any of: "lessons learned", "what did we learn", "review", "retro", "retrospective", "process review", "what worked", "what didn't", "train the skills", or at the end of a major deliverable or session. Not for code correctness or pull-request review; it does not BUILD new skills (that is skill-creator) - it TRAINS the existing skills and the way of working.
 when_to_use: After a deliverable, milestone, or session, to grade the WORK and the WAY OF WORKING and turn lessons into fixes that get folded back into the skills. Pair with the repo standards it cites; this skill RUNS the review and trains the skills, the standards GOVERN how skills are written and shipped.
 ---
 

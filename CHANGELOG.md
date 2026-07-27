@@ -6,6 +6,16 @@
 
 ---
 
+## 0.2.0 — 2026-07-27
+**The no-terminal install is here.** You can now run the toolkit in the regular Claude app — no Claude Code, no GitHub, no commands.
+
+- **New `zips/` folder:** one small zip per skill. In Claude (claude.ai), go to Customize -> Skills -> Add -> Upload a skill and drag a zip in. Upload them **one at a time** — that's a Claude limit, not ours.
+- **Fixed:** Route Review's description was longer than Claude's upload limit, so its zip was rejected (and could silently stop a multi-file drag). Trimmed. A build check now makes sure no skill can ship over the limit again.
+- **Updated:** the Audience Recon research prompt library is now the current v10.5 edition.
+- **Updating your copy:** Claude Code users update like always. Zip users: download the new zip and upload it again — same name replaces the old version, about a minute per skill.
+
+---
+
 ## 0.1.1
 - Tidied the bundled research prompt library: swapped internal examples for generic placeholders so every prompt reads cleanly for any brand.
 

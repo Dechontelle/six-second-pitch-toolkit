@@ -1,6 +1,6 @@
 ---
-version: 1.8.3
-last_updated: 2026-07-08
+version: 1.9.0
+last_updated: 2026-07-14
 status: active
 audience: internal
 name: ama-research-engine
@@ -47,7 +47,7 @@ AMA13  →  AMA4  →  AMA5  →  SSP SOP  →  guide / content build
 - **AMA5 — Deep Research + Keyword Validation.** Confirm the AMA4 problem language is actually *searched*. Rank options, cite every source.
 - **SSP SOP** then writes the pitch using only AMA4/AMA5 language. (AMA8 builds the longer launch copy — landing pages, email, offers — after the pitch is set.)
 
-Other AMAs (full library in `references/ama-prompts-v10.4.md`) cover business writing, RAMP reports, tool comparisons, partner discovery, and more. The **client-onboarding** chain is AMA4 → AMA3.2 → AMA3.3 → AMA3.1.
+Other AMAs (full library in `references/ama-prompts-v10.5.md`) cover business writing, RAMP reports, tool comparisons, partner discovery, and more. The **client-onboarding** chain is AMA4 → AMA3.2 → AMA3.3 → AMA3.1.
 
 ## Brand-aware: templates vs. saved instances (READ THIS)
 
@@ -77,7 +77,7 @@ The names live in the registry file (one place to fix), **not** hardcoded in the
 
 When the user says "Run AMA#":
 
-1. **Open `references/ama-prompts-v10.4.md` and read that AMA's verbatim prompt.** That text is the spec. Follow its role, its steps, and its output format exactly — it is Dee's IP, refined over years. Do not improvise a different structure.
+1. **Open `references/ama-prompts-v10.5.md` and read that AMA's verbatim prompt.** That text is the spec. Follow its role, its steps, and its output format exactly — it is Dee's IP, refined over years. Do not improvise a different structure.
 2. **Confirm context first if the prompt requires it.** AMA13 in particular must ask which mode before running: Summary (this transcript only), Continuity (scan prior threads for confirm/conflict/expand), or Decision Trace (audit who decided what, when). Never scan across threads/files without the user's say-so.
 3. **Gather the inputs the prompt names** — the niche/product, the files or reviews to analyze, the folder to reference. If something required is missing, note it inside the response and research to fill the gap rather than stalling (that is how Dee's prompts are written to behave).
 4. **Produce the output in the prompt's required format** (e.g. AMA4's VOC table grouped by pain / desired outcome / trigger moment; AMA13's Role → Mode → Findings → Recommendations → Gaps).
@@ -134,8 +134,8 @@ AMA13 and AMA4 both protect *exact phrasing*. When you capture Dee's coined term
 
 ## Where the prompts live
 
-- **`references/ama-prompts-v10.4.md`** — the full verbatim library (all 15 AMAs + AMA3.x subs + Quick Reference Table). This is bundled so the skill is portable.
-- **Canonical master:** `6P System/ama-prompts-verbatim-v10.4.md` in Dee's repo. If the master changes, re-copy it into this skill's `references/` so they stay in sync. The master wins if they ever disagree.
+- **`references/ama-prompts-v10.5.md`** — the full verbatim library (all 18 AMAs + AMA3.x subs + Quick Reference Table), v10.5 CURRENT approved by Dee 2026-07-14. This is bundled so the skill is portable. (`ama-prompts-v10.4.md` kept beside it for history.)
+- **Canonical master:** `6P System/ama-prompts-verbatim-v10.5.md` in Dee's repo. If the master changes, re-copy it into this skill's `references/` so they stay in sync. The master wins if they ever disagree.
 
 ## Connection to the rest of the system
 

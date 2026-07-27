@@ -1,7 +1,7 @@
 # AMA Prompt System — Full Verbatim Prompts (v10.4)
 *The actual prompt text — Dee's proprietary research + writing engine. This is the GOLD: the exact instructions that make AMA write punchy, brief, WIFEY the way Dee specifies. Preserved here verbatim so it lives in git + Claude projects.*
 
-**Status:** v10.4 CURRENT, reconciled 2026-06-09. All 15 prompts (AMA1–AMA15) + the AMA3.x subsections.
+**Status:** v10.4 SUPERSEDED by ama-prompts-v10.5.md (Dee approved v10.5 on 2026-07-14). Kept for history. All 15 prompts (AMA1–AMA15) + the AMA3.x subsections.
 **Owner:** Dee Patience LLC · **Last reviewed:** 2026-06-09 · **Source files:** `Dropbox/Dee Business/Dee Prompts/AMA_GPS/AMA Prompt System SOP v10.4 - Complete Quick Reference Table.pdf` (current) + `…/Archive/AMA_Prompt_System_SOP_v10.1_FULL_VERBATIM_FINAL.docx` (the full prompt bodies). © 2025 Dee Patience LLC.
 
 **Use:** Source material for the **AMA skill** (`ama-research-engine` in this repo) and the SSP report upgrade. See `12-ama-research-sequence.md` for the sequence logic and when to run each.
