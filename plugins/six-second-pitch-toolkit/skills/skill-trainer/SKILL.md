@@ -1,6 +1,6 @@
 ---
-version: 1.8.1
-last_updated: 2026-07-27
+version: 1.9.0
+last_updated: 2026-07-28
 status: active
 audience: internal
 name: skill-trainer
@@ -38,7 +38,8 @@ Walk this out loud. These are the defects that repeat across sessions:
 - [ ] **Version control** — branch hygiene: merged/dead branches pruned; nothing valuable stranded on an abandoned branch; the working branch is the right one.
 - [ ] **Saving / backup** — is the work committed AND pushed? Anything living only on local disk (data-loss risk)? **MEASURE this with `git status` / `git log` — never assert commit/push state from memory or assumption** (added 2026-07-01 after "nothing has been committed yet" was told to Dee when a parallel process had already committed most of it). **Watch for concurrent writers:** in a shared repo, another thread or an automated import may be committing at the same time — check `git log` timestamps, and **stage your own files selectively** (`git add <file>`) so you don't commit another thread's changes under your message or get your work swept into theirs with a misleading label.
 - [ ] **Organization** — doc sprawl: are superseded files marked or archived? Can a newcomer find "what's current" in 30 seconds? **Before hand-building ANY new deliverable — a doc, OR a design asset/component/template — search the target folder for an existing one on the same topic first** — a plausible-sounding gap ("X isn't built yet") can be wrong, and a duplicate can omit a real deadline, spec, or design decision the existing one already had. (Added 2026-07-01 after a redundant Meet-With-Dee rebuild handoff was written before checking Dee Website for the existing, more detailed one, which also carried a hard deadline the duplicate missed. Generalized 2026-07-01 after the SAME failure hit a design asset, not just a doc: a locked, Council-approved acronym-card template already existed in `Dee Website/article-templates/` while a plain hand-coded box shipped instead on the "Is It a Sin to Use AI" article.)
-- [ ] **Date integrity** — were files/commits stamped with the REAL date? (Verify with the `date` command.)
+- [ ] **Date integrity** — were files/commits stamped with the REAL date? (Verify with the `date` command.) **Re-run `date` if the session has been long or spanned a break** — a session that started yesterday will happily keep stamping yesterday's date onto today's files.
+- [ ] **Is the broken version still live?** (added 2026-07-28) When this session FIXED something that exists on a public surface, check what that surface serves *right now* (`curl` the live page/README/file) and say it out loud: "the fix is committed locally, the broken version is still up." A local fix plus an intentional hold is a legitimate choice, but it must be a *stated* choice with a known cost, not a quiet gap nobody names. Why: during the toolkit install relaunch, the crisis-causing "paste these 2 commands" README stayed live to the public for the entire session while a corrected version sat committed-unpushed, and no one said so until the review measured it. Sibling of [[verify-before-assert]]: "we fixed it" and "users see the fix" are different claims.
 - [ ] **Secrets** — did any API key, password, or token get pasted into chat? If so, flag it for rotation.
 - [ ] **Repeated mistakes** — what did the user have to say more than once? Each repeat is a process defect, not a one-off.
 - [ ] **Locked work untouched** — was anything finished/locked changed without being asked? (Change only what was requested.)

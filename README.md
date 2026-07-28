@@ -23,7 +23,7 @@ No terminal. No GitHub account. Nothing to install on your computer. If you can 
 3. Claude updates often, so menus can move. The official guide stays current: [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude). Bookmark it.
 
 **Install:**
-1. Download the 5 tools from [sixsecondpitch.com/toolkit](https://sixsecondpitch.com/toolkit) (or the `zips/` folder in this repo). They are small zip files. Do not unzip them.
+1. Download the 5 tools from the [`zips/` folder](zips) in this repo (they are also on [sixsecondpitch.com/toolkit](https://sixsecondpitch.com/toolkit)). They are small zip files. Do not unzip them.
 2. In Claude, go to Customize, then Skills. Click Add, then Upload a skill. Drag 1 zip in.
 3. Repeat for the other 4. Claude takes them 1 at a time.
 4. Start a new chat and say: **"Set up my toolkit."**

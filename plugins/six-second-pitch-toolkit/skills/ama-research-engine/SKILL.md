@@ -1,6 +1,6 @@
 ---
-version: 1.9.0
-last_updated: 2026-07-14
+version: 1.10.0
+last_updated: 2026-07-28
 status: active
 audience: internal
 name: ama-research-engine
@@ -116,6 +116,7 @@ AMA is the **COPY gate**, the way premium-ux is the **VISUAL gate**. Any copy �
 - [ ] **On-message** — headline/topic checked against AMA4 (VOC) + AMA5 (keyword) so it ranks for what people actually search.
 - [ ] **LLM-rankable** — FAQ block + schema present; answers a real question clearly.
 - [ ] **Dee's coined terms verbatim** (Six Second Pitch, Grounded Growth, ROOTS vs LIES, etc.).
+- [ ] **Capability and tier claims are TESTED or ATTRIBUTED, never borrowed (added 2026-07-28)** — any public sentence about what a product/plan/platform *supports* ("works on every plan," "runs on any phone," "free version includes X") must either (a) have been verified on that exact tier/device/version, or (b) be stated as the vendor's claim with a link and an out for the reader ("Claude lists it on Free too; if you hit a snag, email me"). Never repeat a vendor's spec sheet in your own voice as if you tested it. Why: toolkit install copy said skills "work on every plan, including Free" sourced from a help-center page, while the live test had run only on a Max account — and a prerequisite (code execution) may not exist on Free, which would have sent the exact users we were rescuing straight back into a broken install. Dee caught it in 5 words: "yes but I have claude pro." Same family as [[verify-before-assert]], applied to outbound copy instead of internal claims.
 - [ ] **Rewrites preserve locked/branded frameworks** (added 2026-07-01) — if this copy touches a piece with a named pillar/framework (ROOTS vs LIES, FIRST, 6P), diff the new draft against ALL of that framework's parts before it ships. Fixing one problem (a thesis, a voice pass, a trim) must never silently drop another locked part. (Lesson: a v1→v2 rewrite of "Is It a Sin to Use AI" fixed the thesis but silently dropped the entire ROOTS half of the ROOTS-vs-LIES pillar; it shipped live before Dee caught it — "you didt publish my ROOT pillar on either article. why.")
 
 If any box fails, fix it before showing or publishing. The user is never the QC.

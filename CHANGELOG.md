@@ -6,7 +6,7 @@
 
 ---
 
-## 0.2.0 — 2026-07-27
+## 0.2.0 — 2026-07-28
 **The no-terminal install is here.** You can now run the toolkit in the regular Claude app — no Claude Code, no GitHub, no commands.
 
 - **New `zips/` folder:** one small zip per skill. In Claude (claude.ai), go to Customize -> Skills -> Add -> Upload a skill and drag a zip in. Upload them **one at a time** — that's a Claude limit, not ours.
