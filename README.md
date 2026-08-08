@@ -18,13 +18,13 @@ refuses to ship work that fails its own quality checks.
 No terminal. No GitHub account. Nothing to install on your computer. If you can drag a file, you can do this.
 
 **Before you start: a 60-second check.**
-1. Know your plan. In Claude, click your initials, then Settings, then Billing. Any paid plan (Pro and up) is what we test on.
-2. Turn on Code execution: Settings, then Capabilities. The tools need it to build your files.
+1. Turn on Code execution. In Claude: Settings, then Capabilities. The tools need it to build your files. This is the only real requirement.
+2. Any Claude plan works. Skills are available on Free, Pro, Max, Team, and Enterprise ([Claude Help Center](https://support.claude.com/en/articles/12512180-use-skills-in-claude)).
 3. Claude updates often, so menus can move. The official guide stays current: [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude). Bookmark it.
 
 **Install:**
-1. Download the 5 tools from the [`zips/` folder](zips) in this repo (they are also on [sixsecondpitch.com/toolkit](https://sixsecondpitch.com/toolkit)). They are small zip files. Do not unzip them.
-2. In Claude, go to Customize, then Skills. Click Add, then Upload a skill. Drag 1 zip in.
+1. Download the 5 tools from the [`zips/` folder](zips) in this repo. They are small zip files. Do not unzip them.
+2. In Claude, go to Customize, then Skills. Click the + button, then Create skill, then Upload a skill. Drag 1 zip in.
 3. Repeat for the other 4. Claude takes them 1 at a time.
 4. Start a new chat and say: **"Set up my toolkit."**
 
@@ -75,7 +75,7 @@ To update: download the new zip and upload it again. Same name replaces the old 
 
 **"Do I need a GitHub account?"** No. You only need your Claude login.
 
-**"Which Claude plan do I need?"** Any paid Claude plan (Pro and up) works. That is what we test on. Claude lists skills on the Free plan too ([Claude Help Center](https://support.claude.com/en/articles/12512180-use-skills-in-claude)), but if you are on Free and hit a snag, email me.
+**"Which Claude plan do I need?"** Any of them. Claude makes skills available on Free, Pro, Max, Team, and Enterprise ([Claude Help Center](https://support.claude.com/en/articles/12512180-use-skills-in-claude)). What you DO need is Code execution turned on, under Settings, then Capabilities. If you are on Free and hit a snag, email me.
 
 **"It says the file must include SKILL.md."** You probably unzipped the file first. Upload the zip itself, not the folder inside it.
 
