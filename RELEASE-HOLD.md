@@ -40,3 +40,10 @@ need a real hold, keep the work on a branch, or ask directly whenever `save` run
 Then delete this file. (There's no push to hold back at that point — the repo's already live.)
 
 Full plan: `Six Second Pitch/2026-07-28-HANDOFF-toolkit-v020-launch.md`
+
+## STATUS UPDATE 2026-08-09
+The held CONTENT is already public: a parallel session pushed 85a1ca4 (README plan-requirement fix)
+on 2026-08-08 18:18, which carried the committed AMA 1.11.0 + skill-trainer 1.11.0 rebuilds with it.
+So the repo now serves current skill versions; this hold now governs (a) the ANNOUNCEMENT timing and
+(b) future pushes only. The nightly `auto-commit.sh` now has a guard: repos with this file get
+committed locally but never auto-pushed. **Lift the hold by deleting this file.**
