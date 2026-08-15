@@ -33,11 +33,19 @@ need a real hold, keep the work on a branch, or ask directly whenever `save` run
    plugin-command copy in E1. Check the live automation directly before assuming either way.
 
 ## Release the announcement when all 3 are true
-1. The /toolkit page download section is designed, approved, and deployed.
-2. SendFox E1 no longer mentions plugin commands.
-3. Dee says go.
+1. ✅ **DONE 2026-08-15.** The /toolkit page download section is designed, approved, and deployed.
+   Merged `toolkit-download-section` → `main`, pushed, verified LIVE on sixsecondpitch.com/toolkit
+   (not just a preview): 5 real tool cards, install steps, FAQ, version reads 0.2.1. Confirmed a
+   real download works end to end — `curl`'d `sixsecondpitch.com/downloads/skill-trainer.zip`
+   live, got HTTP 200 and a valid zip with `SKILL.md` inside.
+2. ⬜ **Still open, NOT reverified this pass.** SendFox E1 last known PAUSED with plugin-command
+   copy in it (automation 118885). Check the live automation directly before assuming either way.
+3. ⬜ **Still open.** "Push v0.2.1" and "merge the download page" were both explicitly approved by
+   Dee (2026-08-15) — but that is not the same approval as "send the announcement email" / "call
+   the toolkit officially relaunched." Get that go separately before touching #2.
 
-Then delete this file. (There's no push to hold back at that point — the repo's already live.)
+Once #2 and #3 are both true, delete this file. (There's no push to hold back at that point — the
+repo's already live.)
 
 Full plan: `Six Second Pitch/2026-07-28-HANDOFF-toolkit-v020-launch.md`
 
@@ -46,4 +54,10 @@ The held CONTENT is already public: a parallel session pushed 85a1ca4 (README pl
 on 2026-08-08 18:18, which carried the committed AMA 1.11.0 + skill-trainer 1.11.0 rebuilds with it.
 So the repo now serves current skill versions; this hold now governs (a) the ANNOUNCEMENT timing and
 (b) future pushes only. The nightly `auto-commit.sh` now has a guard: repos with this file get
-committed locally but never auto-pushed. **Lift the hold by deleting this file.**
+committed locally but never auto-pushed.
+
+## STATUS UPDATE 2026-08-15
+v0.2.1 pushed live (Dee's explicit go) — skill versions caught up to canon, `ssp-analyzer` got its
+first version number, the sync script now mirrors zips to the site automatically so this class of
+drift can't recur. Then the download page itself shipped (condition 1 above). **This hold now
+governs ONLY the announcement (condition 2 + 3) — the product itself is fully live and current.**
