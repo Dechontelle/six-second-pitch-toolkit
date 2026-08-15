@@ -6,6 +6,18 @@
 
 ---
 
+## 0.2.1 — 2026-08-15
+**Catch-up release.** Audience Recon and Route Review pick up several weeks of small
+accuracy and quality fixes. Nothing you need to do differently, just re-download and
+re-upload when you get a chance.
+
+- Route Review and Audience Recon updated to their current versions.
+- Every tool now carries a version number (one was missing it).
+- Behind the scenes: the update process now runs from one script end to end, so this
+  page, the download files, and your website copy can't drift out of sync again.
+
+---
+
 ## 0.2.0 — 2026-07-28
 **The no-terminal install is here.** You can now run the toolkit in the regular Claude app — no Claude Code, no GitHub, no commands.
 

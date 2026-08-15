@@ -1,16 +1,16 @@
 ---
-version: 1.11.0
-last_updated: 2026-07-29
+version: 1.14.1
+last_updated: 2026-08-14
 status: active
 audience: internal
 name: ama-research-engine
 description: >-
-  Dee Patience's AMA ("Ask Me Anything") research-and-writing system (AMA1-15).
+  Dee Patience's AMA ("Ask Me Anything") research-and-writing system (AMA1-18).
   Invoke on "Run AMA#" / "run the AMA sequence", any VOC / voice-of-customer, audience,
   jobs-to-be-done, or keyword research, a competitor teardown, a transcript/decision-trace
   audit, or writing a pitch, listing, landing page, email, proposal, or SOP "in Dee's
   voice." Also invoke before ANY pitch/hook/headline/copy to enforce the rule that AMA4
-  (VOC) + AMA5 (keyword) run first. Bakes in Dee's style rules (6th-grade, active voice,
+  (VOC) + AMA5 (keyword) run first. Bakes in Dee's style rules (3rd-5th grade, active voice,
   benefits-first, WIFE method, numerals-not-words, cite sources, no guessing, no em dashes).
 when_to_use: "Buyer research, VOC, keyword work, competitor teardown, transcript audit, or writing copy in Dee's voice. NOT for live-conversation mining of calls/DMs/comments (that's prospect-interaction-analyzer) or scoring a finished pitch (that's ssp-analyzer)."
 ---
@@ -22,6 +22,50 @@ AMA is Dee Patience's research-and-writing operating system. It is two things at
 2. **The "gold"** — the exact prompt instructions that make output come out punchy, brief, and in Dee's voice (the WIFE method).
 
 This skill makes that system invokable. When the user types "Run AMA#", you become that AMA. When they ask for a pitch or copy, you make sure the research ran first.
+
+## Step 0 — SHOW THE RECEIPTS: open the locked-facts files and PASTE what they say (added v1.13.0, 2026-08-14, Dee's explicit call)
+
+**Before writing one word of copy about the user's own brands, open the files that define them and paste the relevant lines back into the response.** Not "I checked." The actual quoted lines, with the file path. If a needed fact is not in any file, say that out loud and ask — do not fill the gap from memory.
+
+Minimum set to open, in this order:
+1. The brand's **`NAME-REGISTRY.md`** and any **`CANON.md`** — names, hierarchy, what supersedes what.
+2. **Auto-memory** for the system's architecture (e.g. `grounded-growth-core.md` defines which layer is which).
+3. **`VOICE-CORRECTIONS.md`** — banned framings and every past correction.
+4. **Notion**, for anything about current positioning or projects. It is frequently AHEAD of the repo.
+
+**Why this is Step 0 and not advice.** On 2026-08-14 a public bio shipped calling Grounded Growth the whole business system. It is **Layer 2**; the umbrella is the Founded on Faith System. That exact fact was sitting in `grounded-growth-core.md`, a file the session never opened. Three more architecture errors followed the same way: a 3-book series described as one workbook, a sibling property described as nested, and an identity rebalanced so far that the user's actual business was deleted from her own short bio. Every fact needed was already written down. **The failure was never knowledge. It was not looking.**
+
+A prose rule to "read the SSOT first" already existed and did not fire, because nothing forced an artifact. Pasting the quoted lines is the artifact: you cannot paste a line from a file you did not open, and the user can see instantly whether the right file was read.
+
+⚠️ **Watch for two sources dated the same day that disagree.** When they do, STOP and surface the conflict rather than picking one — a public bio was written from the wrong one of three conflicting sources on the same day, and a stale line left directly under a newer ruling caused a second session to ship 5 violations to a live site. **Strike the superseded text in the same edit that adds the replacement.**
+
+---
+
+## Step 0b — ™ AND OWNERSHIP: mark what is hers, never mark what is not (added v1.14.0, 2026-08-14, Dee's ask)
+
+**Any copy naming a framework, character, series, program, or method carries an ownership decision. Make it deliberately, every time.** Dee raised this after noticing her own names sitting unmarked on a live page: *"tina and tilly, Petty Powers, FaithFocusHaven are my Tm trademarks and copyright but I could swear I dont see them on same pages."* She was right — yourbrand.com/press carried **zero** ™ marks, including names added that same day.
+
+### The mechanics
+- **™ always. ® never.** Nothing of Dee's is federally registered; `®` on an unregistered mark is a false claim.
+- **™ on FIRST USE per page**, not every occurrence. Later mentions stay clean.
+- **In every VISIBLE field, not just body copy** — headings, `alt` text, meta description, image captions, link labels.
+- ⛔ **NEVER in JSON-LD `name` fields. Schema stays clean** (ruled by Dee, 2026-08-14). A `name` field is a **machine-matching key**, not display copy: `"Tina & Tilly™"` and `"Tina & Tilly"` are different strings to a retrieval system, so a ™ there actively degrades the entity matching these pages exist to win. Legal notice belongs where humans read it. **This corrects the first version of this rule, written earlier the same day, which said "every field including JSON-LD" — that was wrong and Dee overruled it.** Prose `description` fields are a judgment call; default to clean there too, since they are also machine-read.
+- A **© line** in the footer is a different thing and does not substitute for ™ on names.
+
+### Where the authoritative list lives — READ IT, do not recall it
+Each project owns its own list. For the kids' imprint it is **`Projects/your author imprint/IP-LOG.md` § ™ SWEEP**, which splits names into *Dee's, mark these* and *NOT Dee's, never mark*. Open that file. Do not mark a name from memory, and **do not extend the list to a name it does not cover** without asking — being obviously Dee's and being cleared to carry a public ™ are different claims.
+
+⚠️ **The lists are PER-PROJECT and do not automatically cover other sites.** The your author imprint sweep (2026-08-12) audited faithfocushaven.com and never touched yourbrand.com, so business-side names (Six Second Pitch, Grounded Growth, Founded on Faith System, the 6P framework) sit on **no** vetted list. When copy uses a name with no list entry, say so and ask rather than inventing coverage.
+
+### ⛔ The real hazard: third-party IP that must never be marked, and mostly never named
+Marking someone else's mark is worse than leaving Dee's unmarked. Per `IP-LOG.md` and `CREDITS.md`:
+- **EMBERS is a LIVE REGISTERED THIRD-PARTY MARK.** Never write it publicly and never put ™/® on it. The public name is **The Hidden Ember** (Dee's). EMBERS stays an internal acronym.
+- **the past-self method Group / VRA / CGE / KDP:** their *framework* names (Anatomy of a Story, MOVE THEM, the Keynote Arc, Pressure-Free Persuasion, the Holy Trifecta) are internal only. **Naming the ORGANIZATION Dee belongs to is fine** — that distinction resolved a rule conflict on 2026-08-14; only their methods are off-limits.
+- **Credit, never mark:** Mirror Moment (Nicole Roth), "The ONE Thing" (Gary Keller), Wheel of Life (generic). Research bodies (CASEL, CDC/YRBS, Barna, Pew) get citation only, never a treatment claim.
+
+**Before shipping any page, run the measured ™ check in `premium-ux-conversion-designer` gate 6b** — it counts marked vs unmarked per name and flags third-party leakage. Prose alone did not catch this; a count does.
+
+---
 
 ## The one hard rule (why this skill exists)
 
@@ -119,6 +163,15 @@ AMA is the **COPY gate**, the way premium-ux is the **VISUAL gate**. Any copy �
 - [ ] **Dee's coined terms verbatim** (Six Second Pitch, Grounded Growth, ROOTS vs LIES, etc.).
 - [ ] **Capability and tier claims are TESTED or ATTRIBUTED, never borrowed (added 2026-07-28)** — any public sentence about what a product/plan/platform *supports* ("works on every plan," "runs on any phone," "free version includes X") must either (a) have been verified on that exact tier/device/version, or (b) be stated as the vendor's claim with a link and an out for the reader ("Claude lists it on Free too; if you hit a snag, email me"). Never repeat a vendor's spec sheet in your own voice as if you tested it. Why: toolkit install copy said skills "work on every plan, including Free" sourced from a help-center page, while the live test had run only on a Max account — and a prerequisite (code execution) may not exist on Free, which would have sent the exact users we were rescuing straight back into a broken install. Dee caught it in 5 words: "yes but I have claude pro." Same family as [[verify-before-assert]], applied to outbound copy instead of internal claims.
 - [ ] **Rewrites preserve locked/branded frameworks** (added 2026-07-01) — if this copy touches a piece with a named pillar/framework (ROOTS vs LIES, FIRST, 6P), diff the new draft against ALL of that framework's parts before it ships. Fixing one problem (a thesis, a voice pass, a trim) must never silently drop another locked part. (Lesson: a v1→v2 rewrite of "Is It a Sin to Use AI" fixed the thesis but silently dropped the entire ROOTS half of the ROOTS-vs-LIES pillar; it shipped live before Dee caught it — "you didt publish my ROOT pillar on either article. why.")
+
+- [ ] **FRAMEWORK COPY: try to answer it WRONGLY on purpose (added 2026-08-08).** This gate catches bad *spelling*, bad *cadence*, and bad *voice*. It had nothing that catches bad *logic* — copy that reads beautifully and does not do the job its own framework says it does. So when the copy is a **prompt, a step, a pillar name, or any line inside a named framework** (TGIFF, ROOTS vs LIES, FIRST, the 6Ps, a journal prompt, a worksheet question), do this BEFORE locking it:
+  1. Write down what lane this line is supposed to own, and what the ADJACENT lanes own.
+  2. **Try to answer your own line with an adjacent lane's answer.** Say it out loud. If a neighbouring answer fits the sentence, the wording **FAILS**, no matter how good it sounds.
+  3. **Show the attempt to the user, not just the verdict.** "I tried answering this with X and it fit" is evidence; "this stays in its lane" is an assertion.
+
+  **The specific trap: an OPEN OBJECT never constrains a lane.** "What do I need to *release*?" / "*let go of*?" / "*hand over*?" can be answered with literally anything, so it collects answers belonging to every neighbouring step. **Changing the VERB does not fix this — only the OBJECT defines the lane.**
+
+  **Why:** on 2026-08-08 a Grace prompt for Dee's Faith & Focus journal passed every box above (reading level, no em dashes, numerals, first person, on-VOC) and was fully built, QA'd at 253.0pt with measured contrast, and committed — while being logically broken. "What do I need to release, and who do I need to forgive?" is answered perfectly by "control of the outcome," which is the *Faith* step, not Grace. The defect survived the AMA gate AND the premium-ux visual gate, and was caught by an outside critique: *"Different verbs do not create different jobs. The object creates the lane."* Two full build cycles were wasted. Dee approved adding this step by name: "Before locking any framework wording, argue against it first."
 
 If any box fails, fix it before showing or publishing. The user is never the QC.
 

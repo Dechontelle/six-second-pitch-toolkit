@@ -1,4 +1,8 @@
 ---
+version: 0.3.0
+last_updated: 2026-08-15
+status: active
+audience: internal
 name: ssp-analyzer
 description: |
   Six Second Pitch analysis and coaching, applying Dee Patience's SSP framework. ALWAYS invoke for: "analyze my pitch", "score my message", "review my website", "Six Second Pitch", "SSP", "clarity score", "Person Problem Promise", "is my message clear", "analyze [URL]", "who is my person", "who should I target", "map all my offers", or any request to choose, evaluate, score, rewrite, or map someone's brand message or offer ecosystem. Five modes: Person Finder (choose the right Person first), Quick Analyzer (website inspection only), Market-Validated (VOC research first, then pitch), Council (5-advisor stress test), Variable Map (multi-offer ecosystem). Every run begins with Step 0 intake. Defaults to Market-Validated when no mode is specified. Ships with NO client data and never auto-runs shell commands.
