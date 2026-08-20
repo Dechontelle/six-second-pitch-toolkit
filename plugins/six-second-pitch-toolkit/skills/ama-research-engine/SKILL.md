@@ -1,6 +1,6 @@
 ---
-version: 1.14.1
-last_updated: 2026-08-14
+version: 1.15.0
+last_updated: 2026-08-17
 status: active
 audience: internal
 name: ama-research-engine
@@ -38,6 +38,14 @@ Minimum set to open, in this order:
 A prose rule to "read the SSOT first" already existed and did not fire, because nothing forced an artifact. Pasting the quoted lines is the artifact: you cannot paste a line from a file you did not open, and the user can see instantly whether the right file was read.
 
 ⚠️ **Watch for two sources dated the same day that disagree.** When they do, STOP and surface the conflict rather than picking one — a public bio was written from the wrong one of three conflicting sources on the same day, and a stale line left directly under a newer ruling caused a second session to ship 5 violations to a live site. **Strike the superseded text in the same edit that adds the replacement.**
+
+⛔ **Step 0 also fires when you PROPOSE an audience, a positioning, or a brand direction, not just when you write or edit copy** (added v1.15.0, 2026-08-17). This is the third shape of the same failure. Step 0 above reads as though it triggers on *authoring*; `skill-trainer`'s checklist added *editing* after a session rewrote copy carrying a retired age. Neither one fires on **strategy**, and a positioning proposal is the most expensive place to be wrong, because everything downstream inherits it.
+
+**The specific hazard is a sibling brand's locked audience.** When the user owns several brands, an audience is not free real estate. Proposing one for Brand A can quietly annex Brand B's locked avatar, and the conflict is invisible unless you open B's canon.
+
+**Live case (2026-08-15).** A session proposed positioning GasLamp around neurodivergent and attention-challenged teens. It sounded well-supported and it was **already Tina & Tilly's locked audience**. `your author imprint/CANON.md` says it plainly: *"Buyer avatar | Christian moms of girls 11-14"* and *"helpful for girls who struggle with attention, anxiety, friendship, emotional regulation, or feeling different"*, both marked **Locked ✅**. Dee caught it, not the gate: *"originally it was for ADHD/attention/anxiety but thats my tina and tilly girls audience."*
+
+**How to run it:** before proposing any audience or positioning, open the `CANON.md` / `NAME-REGISTRY.md` of **every sibling brand that could plausibly claim it**, and paste the avatar lines. Then say out loud which brand owns which audience. An audience you cannot show is unclaimed is an audience you may not propose.
 
 ---
 
@@ -89,6 +97,7 @@ AMA13  →  AMA4  →  AMA5  →  SSP SOP  →  guide / content build
 - **AMA4 — Audience Research (VOC + JTBD).** Pull *exact* customer phrases (never paraphrased) from reviews, Reddit, forums, competitor testimonials. Group into pains, desired outcomes, trigger moments. Flag trust signals + objections.
   - **HARD BOUNDARY — VOC is the AUDIENCE's voice, never the creator's.** An AMA4 quote tells you what words to *echo to the reader*. It is NOT the creator's testimony. **Never put an audience VOC quote into the creator's mouth as her own lived experience** (e.g. do not open Dee's post with a buyer's "I felt guilty for three days" as if it happened to Dee). When you write a first-person story in the creator's voice, the facts and feelings come from HER own story — the timeline, an interview, or her transcripts — not from AMA4. If you do not have her lived version, ASK her; do not borrow the audience's. (Lesson logged 2026-06: a buyer quote got personalized as Dee's; she caught it.)
 - **AMA5 — Deep Research + Keyword Validation.** Confirm the AMA4 problem language is actually *searched*. Rank options, cite every source.
+  - ⛔ **NEVER rank a phrase #1 on low competition alone. Open its top results and check whether they SELL** (added v1.15.0, 2026-08-17). Autocomplete proves people **type** a phrase. It can never prove they **buy** the thing you would build. Low supply has two opposite causes and they look identical in the data: a real gap, or **a category that has been tried and does not convert**. **How to run it:** for any phrase you are about to put in the "lead with" list, open the top 3 to 5 results and record rank and review count. If the best-selling result is weak, the phrase is a trap. Also check *what kind of product* is ranking, because supply counts silently mix categories. **Live case (GasLamp, 2026-08-15, caught and verified the same day):** AMA5 ranked `escape room book for teens` #1 on 851 competing titles. Verification showed the 851 were mostly **novels** (Goldin 5,200 reviews, Edge 2,000, Stoffels 1,400), so activity-book supply was far lower than measured, and the one real teen escape-room activity book sat at **BSR #283,192 with 27 reviews after 9 months** against a generic incumbent at **#12,317 with 583**. Roughly 23x worse. The phrase was pulled from the lead list. This is the same lesson the classic-wrapper data taught hours earlier in the same session, which is why it is now a required step and not a caution.
 - **SSP SOP** then writes the pitch using only AMA4/AMA5 language. (AMA8 builds the longer launch copy — landing pages, email, offers — after the pitch is set.)
 
 Other AMAs (full library in `references/ama-prompts-v10.5.md`) cover business writing, RAMP reports, tool comparisons, partner discovery, and more. The **client-onboarding** chain is AMA4 → AMA3.2 → AMA3.3 → AMA3.1.
