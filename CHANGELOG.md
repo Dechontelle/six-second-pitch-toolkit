@@ -6,6 +6,18 @@
 
 ---
 
+## 0.2.2 — 2026-09-02
+**The Six Second Pitch analyzer got 2 upgrades.** No install changes, just re-download the
+zip when you get a chance.
+
+- It now checks itself before dumping a huge list of questions on you at once, and it stops
+  once it hands you your one pitch, verdict, or recommendation instead of generating endless
+  extra options.
+- If your brand has no reviews or customers yet, it no longer skips research. It uses
+  labeled "indirect evidence" (reviews of similar products, forum posts from your actual
+  buyer, a few real interviews) instead of guessing, and tells you clearly which parts came
+  from that path.
+
 ## 0.2.1 — 2026-08-15
 **Catch-up release.** Audience Recon and Route Review pick up several weeks of small
 accuracy and quality fixes. Nothing you need to do differently, just re-download and

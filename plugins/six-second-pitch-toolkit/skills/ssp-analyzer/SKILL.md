@@ -1,6 +1,6 @@
 ---
-version: 0.3.0
-last_updated: 2026-08-15
+version: 0.4.0
+last_updated: 2026-09-02
 status: active
 audience: internal
 name: ssp-analyzer
@@ -251,6 +251,8 @@ Organize findings into three groups, exact quotes only, with sources:
 
 **Persona labels fail:** "entrepreneurs" → "running a business and trying to figure out..."; "high-achieving women" → "women who push through everything until they burn out"; "authors" → "you wrote the book but nobody knows it exists yet". If the label belongs in a census or a LinkedIn filter, it fails.
 
+**If there are no reviews, testimonials, or customers yet, do not skip VOC and do not fabricate quotes** (added v0.4.0, 2026-09-02, folded in from the external SSP Coach v1.0.1 review, Dee's call). Use labeled indirect evidence instead: reviews of adjacent or competitor products the same buyer already uses, public conversations (forums, Reddit, comments) from people describing the same problem, and short interviews with likely buyers if the client can get them. Mark every quote sourced this way **INDIRECT EVIDENCE, not this brand's own customer** in the citation, and say so again in the final report. Indirect evidence sets direction; it is not proof this specific offer sells. Recommend the smallest live test that would turn it into direct evidence (post the pitch somewhere real, ask 5 real people) when the brand has no direct VOC of its own.
+
 **Phase 4: Keyword validation (this is AMA5).** Run AMA5 (via the `ama-research-engine` skill if available). Confirm the VOC language is actually searched. Document search-facing language vs brand-facing language, and cite sources. The pitch must use search-facing language.
 
 **Phase 5: Analysis and scoring.** Same five categories and rubric. Scores should reflect the gap between what the site says and what the market actually uses.
@@ -325,6 +327,7 @@ Use only language found on the site. Mark empty cells **[MISSING]** (a blank is 
 14. **Markdown always, PDF on request.** Write the dated `.md`; ask before rendering the PDF; use the bundled script only.
 15. **Update the roster** after every installed run.
 16. **Use the Name Registry.** Load the brand's `NAME-REGISTRY` then the root one; use the exact canonical names and never output a ⛔ DO NOT USE term. Build on the brand's saved instance instead of starting cold.
+17. **Pace the questions, and stop once the round is done** (added v0.4.0, 2026-09-02, folded in from the external SSP Coach v1.0.1 review, Dee's call). Ask one small, related group of questions at a time; never dump the full intake or the whole framework on the user in one message. Once the run produces its one required output (1 recommended pitch in Modes 1/2, 1 verdict in Mode 3, 1 brand-level recommendation in Mode 4), stop generating more options. Make another variation only if a real test result gives a reason to. This is the same discipline as rule 7 ("score before pitch"), one step later: don't keep producing options once the job is done.
 
 ---
 
